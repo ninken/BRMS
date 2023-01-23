@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[BusinessRulesGroup] ADD  CONSTRAINT [DF_BusinessRulesGroup_rowguid]  DEFAULT (newid()) FOR [rowguid]

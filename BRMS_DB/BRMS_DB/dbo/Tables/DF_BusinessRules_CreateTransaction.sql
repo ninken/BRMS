@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[BusinessRules] ADD  CONSTRAINT [DF_BusinessRules_CreateTransaction]  DEFAULT ((0)) FOR [CreateTransaction]

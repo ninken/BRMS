@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[BusinessRules] ADD  CONSTRAINT [DF_BusinessRules_RuleCreatedOn]  DEFAULT (getdate()) FOR [RuleCreatedOn]

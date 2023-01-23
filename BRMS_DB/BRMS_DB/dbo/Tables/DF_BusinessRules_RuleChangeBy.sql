@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[BusinessRules] ADD  CONSTRAINT [DF_BusinessRules_RuleChangeBy]  DEFAULT (case when NOT suser_name() like '%\%' then suser_name() else left(right(suser_name(),charindex('\',reverse(suser_name()),(1))-(1)),(50)) end) FOR [RuleChangedBy]

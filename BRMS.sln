@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRMS", "BRMS\BRMS.csproj", "{109F7496-230E-4CA6-806E-5E767967228C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BRMS_DB", "BRMS_DB\BRMS_DB\BRMS_DB.sqlproj", "{2A33AE96-FF00-4D45-861B-D025715E3695}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7DE5E75-DB16-4EAD-9639-B502FF585FFC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{109F7496-230E-4CA6-806E-5E767967228C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109F7496-230E-4CA6-806E-5E767967228C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109F7496-230E-4CA6-806E-5E767967228C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109F7496-230E-4CA6-806E-5E767967228C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A33AE96-FF00-4D45-861B-D025715E3695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A33AE96-FF00-4D45-861B-D025715E3695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A33AE96-FF00-4D45-861B-D025715E3695}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2A33AE96-FF00-4D45-861B-D025715E3695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A33AE96-FF00-4D45-861B-D025715E3695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A33AE96-FF00-4D45-861B-D025715E3695}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4A7E2C6-89AA-4471-934F-58BAB4E5F3FA}
+	EndGlobalSection
+EndGlobal
