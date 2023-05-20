@@ -1,5 +1,5 @@
 # BRMS Database
-This BRMS (Business Rule Management System) is based on running exclusively on Microsoft SQL Server and does not require any special application services. The benefit of running it natively on the database engine is that it allows for efficient execution of business rules without the need for additional infrastructure or resources.
+This BRMS (Business Rule Management System) is a DBT tool based on running exclusively on Microsoft SQL Server and does not require any special application services. The benefit of running it natively on the database engine is that it allows for efficient execution of business rules without the need for additional infrastructure or resources.
 
 ## Running Business Rules
 Business rules can be executed by calling the store procedure [dbo].[uspExectueRuleGroup] with the parameter @RuleGroup. This will run the specified Rule Group and all the active, non-expired rules within that group in sequence. The rules and rule groups are stored in the tables BusinessRules and BusinessRulesGroup respectively.
